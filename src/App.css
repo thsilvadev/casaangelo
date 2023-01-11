@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "AntarioBold";
+  src: local("Antario-Bold"),
+  url("./fonts/Antario-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AntarioRegular";
+  src: local("Antario-Regular"),
+  url("./fonts/Antario-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "CatavaloBold";
+  src: local("Catavalo-Bold"),
+  url("./fonts/Catavalo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CatavaloRegular";
+  src: local("Catavalo-Regular"),
+  url("./fonts/Catavalo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CatavaloLight";
+  src: local("Catavalo-Light"),
+  url("./fonts/Catavalo-Light.ttf") format("truetype");
+}

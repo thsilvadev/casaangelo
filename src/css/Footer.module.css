@@ -1,0 +1,63 @@
+.footerContainer {
+        position: relative;
+        bottom: 0;
+        background-color:#cf7829;
+        color: #FFF;
+        width: 100%;  
+        height: 280px; 
+        text-align: center;
+        right: 0px;
+}
+
+.sublogo {
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+  
+  .social_list {
+    /*Icones das mídias sociais*/
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0rem;
+  }
+  
+  .social_list li {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  
+  .social_list li:hover {
+    /*Cor que muda ao passar o mouse nos ícones */
+    color: rgb(235, 194, 83);
+  }
+  
+  .social_list svg {
+    /*Tamanho dos ícones */
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .copy_right {
+    /*Cor do nome da empresa no rodapé */
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom:0px;
+  }
+  
+  .copy_right span {
+    /*Cor do nome da empresa no rodapé */
+    font-weight: bold;
+    color: white;
+  }
+  
+.footerContainer a{
+    text-decoration: none;
+}
+
+ .footerContainer a:hover {
+    text-decoration: underline;
+    color: rgb(235, 194, 83) !important;
+  }

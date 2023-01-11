@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from './routes/index';
+
+import Header from './components/Header';
+
+import Container from './components/Container';
+
+import Footer from './components/Footer';
+
+//FONTES
+
+import "./fonts/Antario-Bold.otf";
+import "./fonts/Antario-Regular.otf";
+import "./fonts/Catavalo-Bold.ttf";
+import "./fonts/Catavalo-Light.ttf";
+import "./fonts/Catavalo-Regular.ttf";
+
+
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+      <Header />
+      <Container customClass="min-height">
+        <AppRoutes/>
+      </Container>
+      <Footer />
+    </BrowserRouter>  
+
+ 
   );
 }
 

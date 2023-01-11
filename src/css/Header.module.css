@@ -1,0 +1,18 @@
+.logo {
+    width: 64px !important;
+    height: 64px !important;
+}
+
+.customNavbar {
+    background-color:rgb(34, 34, 34);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list {
+    margin-top: 10px;
+}
+
+a {
+
+    color: white !important;
+}
